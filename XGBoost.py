@@ -20,9 +20,8 @@ df_c = pd.read_csv('global_superstore_2016_cleaned_data.csv')
 df_c['Ship Date'] = pd.to_datetime(df_c['Ship Date']).astype('int64') // 10**9
 df_c['Order Date'] = pd.to_datetime(df_c['Order Date']).astype('int64') // 10**9
 
-categorical_columns = ['Ship Mode', 'Segment', 'City', 'State', 'Country', 'Region', 'Market', 
-                       'Category', 'Sub-Category', 'Order Priority', 'Order Month Name', 
-                       'Ship Month Name', 'Order_Season']
+categorical_columns = ['Ship Mode', 'Segment', 'City',
+                        'Sub-Category', 'Order Priority',]
 label_encoders = {}
 
 for col in categorical_columns:
@@ -36,7 +35,8 @@ with open("label_encoders.pkl", "wb") as f:
 
 
 # Define features and target
-X = df_c.drop(columns=['Sales'])
+X = df_c[['Order Date', 'Ship Date', 'Ship Mode', 'Segment', 'City', 'Sub-Category', 
+          'Order Priority', 'Quantity', 'Discount', 'Profit', 'Shipping Cost']]
 y = df_c['Sales']
 
 # Train-test split
