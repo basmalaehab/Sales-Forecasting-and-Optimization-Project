@@ -7,7 +7,7 @@ import pickle
 from datetime import datetime
 
 # Initialize MLflow tracking
-mlflow.set_tracking_uri('http://localhost:5000')
+mlflow.set_tracking_uri('http://localhost:5001')
 mlflow.set_experiment("Sales_Forecasting_and_Optimization")
 
 # Load model
