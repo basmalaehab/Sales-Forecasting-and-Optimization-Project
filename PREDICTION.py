@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import mlflow  # type:ignore
 import mlflow.xgboost  # type:ignore
 import pandas as pd  # type:ignore
@@ -228,4 +227,3 @@ if st.button("Predict"):
         st.write(" Thank you for using the Sales Forecasting app!")
     except Exception as e:
         st.error(f" Prediction failed: {str(e)}")
->>>>>>> 83eef6cc2e38f640f9eb26319746ffd09bae73ff
