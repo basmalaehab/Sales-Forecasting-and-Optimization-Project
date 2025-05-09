@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/mlflow/DEPI%20FINAL%20PROJECT/mlruns/0/03aa1a2182bd42cfaa13b2abaefff32c/artifacts
+end_time: 1746775735675
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03aa1a2182bd42cfaa13b2abaefff32c
+run_name: Linear_Regression_Model
+run_uuid: 03aa1a2182bd42cfaa13b2abaefff32c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746775723893
+status: 3
+tags: []
+user_id: DELL
