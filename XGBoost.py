@@ -10,10 +10,17 @@ from mlflow.models.signature import infer_signature  # type:ignore
 import os
 import pickle
 
+# Set local tracking path
+mlflow.set_tracking_uri("file:///tmp/mlruns")
+
+# Set experiment name
+mlflow.set_experiment("Sales_Forecasting_and_Optimization")
+
+# Continue your MLflow logic below...
 
 # Set MLflow tracking URI and experiment name
 mlflow.set_tracking_uri('http://localhost:5000')
-mlflow.set_experiment("Sales_Forecasting_and_Optimization")
+mlflow.set_tracking_uri("http://your-server:5000")
 
 # Load and preprocess dataset
 df_c = pd.read_csv('global_superstore_2016_cleaned_data.csv')
