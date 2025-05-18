@@ -39,5 +39,5 @@ In this repo, you’ll find everything from raw data to a live, user‑friendly 
 - Interactive UI: A Streamlit front‑end lets users input new sales figures, view predictions, and submit actuals back into the pipeline.
 - Alerts & Feedback Loop: If the prediction error exceeds our threshold, an automated email notifies the responsible team member—and the new actuals can be appended to retrain the model.
 
-  ##Acknowledgments
-  Thank you to Mostafa Elshahat, Mohab Mohamed, Ziad Ahmed Gharieb for making this project possible, and to Eyouth for organizing the DEPI initiative.
+##Acknowledgments
+Thank you to Mostafa Elshahat, Mohab Mohamed, Ziad Ahmed Gharieb for making this project possible, and to Eyouth for organizing the DEPI initiative.
