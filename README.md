@@ -1,2 +1,7 @@
-# Sales-Forecasting-and-Optimization-Project
-Predicts future sales for retail/e-commerce using historical data. Involves data cleaning, exploration, time-series modeling, optimization, and deployment to help businesses improve inventory, marketing, and sales strategies.
+# Sales-Forecasting-and-Optimization
+## Project Overview
+Accurate sales forecasts are vital for any company that wants to:
+
+- **Plan inventory** more efficiently and avoid stockouts or overstock  
+- **Align marketing campaigns** with expected demand peaks  
+- **Minimize losses** from unsold products or rushed stock orders
